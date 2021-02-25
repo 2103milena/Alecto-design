@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alecto-Design</title>
+</head>
+<body>
+    <div class="mobile-version-navlist">
+        <ul class="hamburger-list">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Work</a></li>
+            <li><a>Services</a></li>
+            <li><a>Blog</a></li>
+        </ul>
+    </div>
+    <!-- HEADER -->
+    <header class="header">
+
+        <nav class="header__nav">
+            <div class="header__logo">Alecto<span class="header__fullstop">.</span></div>
+            <ul class="header__navList">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Work</a></li>
+                <li><a>Services</a></li>
+                <li><a>Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-hamburger fa-3x"></i>
+            </div>
+        </nav>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="header__text-box">
+                    <div class="header__title">
+                        <span class="header__title-alecto">Alecto</span>
+                        is simple PSD Template
+                    </div>
+                    <div class="header__innerText">Lorem ipsum dolor sit amet</div>
+                    <button class="header__btn btn">Learn more</button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="header__text-box">
+                    <div class="header__title">
+                        <span class="header__title-alecto">Alecto</span>
+                        is inovative
+                    </div>
+                    <div class="header__innerText">Lorem ipsum dolor sit amet consectetur.</div>
+                    <button class="header__btn btn">Learn more</button>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="header__text-box">
+                    <div class="header__title">
+                        <span class="header__title-alecto">Alecto</span>
+                        is great
+                    </div>
+                    <div class="header__innerText">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                    <button class="header__btn btn">Learn more</button>
+                </div>
+
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <section class="about-section">
+            <div class="about__title-section">
+                <h2 class="about__title">About us</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            </div>
+            <div class="about__columns-layout">
+                <div class="about__column">
+                    <div class="about__icon-field">
+                        <a><i class="fas fa-plane"></i></a>
+                    </div>
+
+                    <div class="about__text-field">
+                        <div class="about__text-field-title">Lorem Ipsum</div>
+                        <div class="about__text-field-box">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione sint quaerat, harum impedit hic accusantium.</div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__icon-field">
+                        <a><i class="fas fa-snowplow"></i></a>
+                    </div>
+                    <div class="about__text-field">
+                        <div class="about__text-field-title">Lorem Ipsum</div>
+                        <div class="about__text-field-box">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione sint quaerat, harum impedit hic accusantium.</div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__icon-field ">
+                        <a><i class="fas fa-headset"></i></a>
+                    </div>
+                    <div class="about__text-field">
+                        <div class="about__text-field-title">Lorem Ipsum</div>
+                        <div class="about__text-field-box">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione sint quaerat, harum impedit hic accusantium.</div>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="about__icon-field">
+                        <a><i class="fas fa-puzzle-piece"></i></a>
+                    </div>
+                    <div class="about__text-field">
+                        <div class="about__text-field-title">Lorem Ipsum</div>
+                        <div class="about__text-field-box">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione sint quaerat, harum impedit hic accusantium.</div>
+                    </div>
+                </div>
+            </div>
+            <button class="section__btn btn">Learn more</button>
+        </section>
+
+        <!-- CAMERA SECTION-->
+
+        <section class="camera-section">
+            <img class="pic" src="/images/camera.jpg" alt="camera" />
+            <div class="camera__text-box">
+                <h2>Lorem Ipsum</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo omnis rerum molestias quo,
+                    consequuntur quia dignissimos vel facilis quis! Non quam laudantium necessitatibus error!</div>
+                <button class="section__btn btn">Learn more</button>
+            </div>
+        </section>
+
+        <!--LAPTOP SECTION-->
+        <section class="laptop-section">
+            <div class="laptop__text-box">
+                <h2>Lorem Ipsum</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo omnis rerum molestias quo,
+                    consequuntur quia dignissimos vel facilis quis! Non quam laudantium necessitatibus error!</div>
+                <button class="section__btn btn">Learn more</button>
+            </div>
+            <img class="pic" src="/images/lp_white_bg.jpg" alt="laptop" />
+        </section>
+    </main>
+    <script src="/index.js"></script>
+</body>
+
+</html>
